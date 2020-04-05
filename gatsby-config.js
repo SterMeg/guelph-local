@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Guelph Local`,
+    description: `Local Guelph businesses offering delivery and pick up options during the COVID-19 crisis`,
+    author: `@meghasomething`,
   },
   plugins: [
     "gatsby-plugin-eslint",
@@ -16,7 +16,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        // icon: `src/images/tailwind-icon.png`,
       },
     },
     {
@@ -36,6 +36,14 @@ module.exports = {
         tailwind: true,
         purgeOnly: [`src/css/style.css`],
       },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve:
+      `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data`,
+      }
     },
     `gatsby-plugin-offline`,
   ],
