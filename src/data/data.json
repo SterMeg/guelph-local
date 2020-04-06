@@ -8,7 +8,8 @@
     "delivery": true,
     "location": "Guelph",
     "details": "Order online or email for more information. Local home delivery as well as shipping available.",
-    "image": "../images/data/dragon.png"
+    "image": "../images/data/dragon.png",
+    "alt": "A banner with the text order online for home and postal delivery"
   },
   {
   "name": "All Strung Out Fine Yarns and Fibre Arts",

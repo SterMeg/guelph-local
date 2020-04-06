@@ -19,6 +19,7 @@ function IndexPage() {
           name
           pickup
           url
+          alt
           image {
             childImageSharp {
               fluid(maxWidth: 350) {
@@ -65,7 +66,7 @@ function IndexPage() {
                   </a>
                   {store.image && (
                     <a href={store.url}>
-                      <Img sizes={{ ...store.image.childImageSharp.fluid, aspectRatio: 16 / 9 }} />
+                      <Img alt={store.alt} sizes={{ ...store.image.childImageSharp.fluid, aspectRatio: 16 / 9 }} />
                     </a>
                   )}
                 </header>
