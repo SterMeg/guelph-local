@@ -41,6 +41,8 @@
     "pickup": true,
     "delivery": true,
     "location": "Fergus",
-    "details": "Weekly fresh produce box. Order early due to high demand. Pickup Thursdays from 12-7pm. Delivery to Fergus, Elora, Guelph, Elmira, Rockwood, Drayton, Alma, Moorefield, Arthur, Puslinch, Orangeville, Erin, Hillsburgh, Caledon, Mono, Shelburne, Grand Valley, Belwood."
+    "details": "Weekly fresh produce box. Order early due to high demand. Pickup Thursdays from 12-7pm. Delivery to Fergus, Elora, Guelph, Elmira, Rockwood, Drayton, Alma, Moorefield, Arthur, Puslinch, Orangeville, Erin, Hillsburgh, Caledon, Mono, Shelburne, Grand Valley, Belwood.",
+    "image": "../images/data/fresh-box-market.jpg",
+    "alt": "A lineup of vegetables on a white background"
   }
 ]
