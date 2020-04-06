@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Guelph Local`,
+    title: `Shop Guelph Local`,
     description: `Local Guelph businesses offering delivery and pick up options during the COVID-19 crisis`,
     author: `@meghasomething`,
   },
@@ -14,9 +14,9 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        theme_color: `#457B9D`,
         display: `minimal-ui`,
-        // icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/icon.png`,
       },
     },
     {
@@ -39,11 +39,10 @@ module.exports = {
     },
     `gatsby-transformer-json`,
     {
-      resolve:
-      `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/data`,
-      }
+      },
     },
     `gatsby-plugin-offline`,
   ],

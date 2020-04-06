@@ -5,37 +5,37 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-gray-200">
       <Header />
 
-      <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
+      <main className="flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8">
         {children}
       </main>
 
-      <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
-            Created by{` `}
+      <footer className="bg-teal-700">
+        <nav className="flex justify-between flex-wrap max-w-6xl p-4 mx-auto text-sm md:p-8">
+          <p className="text-white text-sm w-full mb-4">
+            This data is crowdsourced and/or sourced from the web. If you would
+            like to update information about a business listed, please contact{" "}
             <a
-              className="font-bold no-underline"
-              href="https://meghansterling.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
+              className="font-bold text-white no-underline"
+              href="mailto:hi@meghansterling.ca"
             >
-              Meghan Stering
+              hi@meghansterling.ca
             </a>
           </p>
 
-          {/* <p>
+          <p className="text-white">
+            Inspired by{` `}
             <a
               className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+              href="https://togethertech.ca/local"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              Together Tech
             </a>
-          </p> */}
+          </p>
         </nav>
       </footer>
     </div>
