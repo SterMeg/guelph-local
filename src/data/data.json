@@ -19,7 +19,9 @@
   "pickup": true,
   "delivery": true,
   "location": "Guelph",
-  "details": "Order online or call 226-820-3766. Shipping, curbside pickup, and delivery within Guelph area."
+  "details": "Order online or call 226-820-3766. Shipping, curbside pickup, and delivery within Guelph area.",
+  "image": "../images/data/all-strung-out.jpg",
+  "alt": "All Strung Out Fine Yarns"
   },
   {
     "name": "Bookshelf",
