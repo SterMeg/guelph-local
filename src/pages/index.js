@@ -21,6 +21,7 @@ function IndexPage() {
           location
           name
           pickup
+          other
           url
           alt
           image {
@@ -40,9 +41,7 @@ function IndexPage() {
       <SEO title="Home" />
 
       <section className="">
-        <h2 className="mb-5 text-gray-800">
-          {description}
-        </h2>
+        <h2 className="mb-5 text-gray-800">{description}</h2>
         <a
           className="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded inline-block"
           href={formLink}
@@ -68,7 +67,13 @@ function IndexPage() {
                   </a>
                   {store.image && (
                     <a href={store.url}>
-                      <Img alt={store.alt} sizes={{ ...store.image.childImageSharp.fluid, aspectRatio: 16 / 9 }} />
+                      <Img
+                        alt={store.alt}
+                        sizes={{
+                          ...store.image.childImageSharp.fluid,
+                          aspectRatio: 16 / 9,
+                        }}
+                      />
                     </a>
                   )}
                 </header>
@@ -83,7 +88,7 @@ function IndexPage() {
                     <h4 className="mb-1">Delivery?</h4>
                     <p
                       className={`text-center text-white rounded p-1 ${
-                        store.delivery ? "bg-teal-700  " : "bg-grey-700"
+                        store.delivery ? "bg-teal-700  " : "bg-gray-700"
                       }`}
                     >
                       {store.delivery ? "Yes" : "No"}
@@ -100,6 +105,10 @@ function IndexPage() {
                     </p>
                   </div>
                 </div>
+                {store.other && <div className="mb-5 clearfix">
+                  <h4 className="float-left leading-tight mr-3">Other:</h4>
+                  <p className="text-gray-800">{store.other}</p>
+                </div>}
                 <div className="mb-5 clearfix">
                   <h4 className="float-left leading-tight mr-3">Location:</h4>
                   <p className="text-gray-800">{store.location}</p>

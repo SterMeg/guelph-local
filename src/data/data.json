@@ -58,5 +58,30 @@
     "details": "Continuing sales via website, email, and phone. Continuing to offer bicycle service & repair through pick up service.",
     "image": "../images/data/speed-river-bicycle.jpg",
     "alt": "A group photo of the Speed River Bicycle staff"
+  },
+  {
+    "name": "Guelph Box",
+    "id": 6,
+    "url": "https://www.guelphbox.ca/",
+    "goods": "A box of local favourites delivered to your doorstep.",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "A surprise box made up of products from local businesses directly affected by the COVID-19 crisis. Delivery within Guelph on specified days.",
+    "image": "../images/data/guelph-box.jpg",
+    "alt": "A shelf with baskets of produce"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 7,
+    "url": "https://www.planetbeancoffee.com/",
+    "goods": "Locally roasted fair trade organic coffee",
+    "pickup": false,
+    "delivery": false,
+    "other": "Available at local grocery stores",
+    "location": "Guelph",
+    "details": "Coffee beans available at Valeriote's Market, The Stone Store Natural Foods, Market Fresh Guelph, Goodness Me! Natural Food Market, Longo's, Thatcher Farms Butcher Shop, Bakery and Farm Market, Grocery Gateway, Mosborough Country Market",
+    "image": "../images/data/planet-bean.jpg",
+    "alt": "A shelf with packaged Planet Bean coffee"
   }
 ]
