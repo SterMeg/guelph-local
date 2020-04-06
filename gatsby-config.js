@@ -20,7 +20,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Shop Guelph Local`,
-        short_name: `Shop Guelph Local`,
+        short_name: `ShopGuelph`,
+        description: `Local Guelph and area businesses offering delivery and pick up options during the COVID-19 crisis`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#457B9D`,
