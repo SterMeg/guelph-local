@@ -7,7 +7,7 @@
     "pickup": false,
     "delivery": true,
     "location": "Guelph",
-    "details": "Order online or email for more information. Local home delivery as well as shipping available.",
+    "details": "Order online or email for more information. Local home and postal delivery.",
     "image": "../images/data/dragon.png",
     "alt": "A banner with the text order online for home and postal delivery"
   },
