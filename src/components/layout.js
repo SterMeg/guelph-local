@@ -1,9 +1,12 @@
 import PropTypes from "prop-types";
+import { useSiteMetadata } from "../hooks/useSiteMetadata";
 import React from "react";
 
 import Header from "./header";
 
 function Layout({ children }) {
+  const { contact } = useSiteMetadata();
+
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-gray-200">
       <Header />
@@ -19,9 +22,9 @@ function Layout({ children }) {
             like to update information about a business listed, please contact{" "}
             <a
               className="font-bold text-white no-underline"
-              href="mailto:hi@meghansterling.ca"
+              href={`mailto:${contact}`}
             >
-              hi@meghansterling.ca
+              {contact}
             </a>
           </p>
 

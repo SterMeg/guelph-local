@@ -1,16 +1,9 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { Link } from "gatsby";
+import { useSiteMetadata } from "../hooks/useSiteMetadata"
 import React from "react";
 
 function Header() {
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
+  const { title } = useSiteMetadata();
 
   return (
     <header className="bg-teal-700">
@@ -18,7 +11,7 @@ function Header() {
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
             <span className="text-xl font-bold tracking-tight">
-              {site.siteMetadata.title}
+              {title}
             </span>
           </h1>
         </Link>

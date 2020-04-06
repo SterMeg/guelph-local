@@ -1,12 +1,15 @@
 import React from "react";
-// import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
+import { useSiteMetadata } from "../hooks/useSiteMetadata";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby";
+
 
 function IndexPage() {
+  const { description, formLink } = useSiteMetadata()
+
   const data = useStaticQuery(graphql`
     query {
       allDataJson {
@@ -38,12 +41,11 @@ function IndexPage() {
 
       <section className="">
         <h2 className="mb-5 text-gray-800">
-          Local Guelph and area businesses offering delivery and pick up options
-          during the COVID-19 crisis
+          {description}
         </h2>
         <a
           className="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded inline-block"
-          href="https://forms.gle/LGF1UWRhr5XpMyFB8"
+          href={formLink}
         >
           Submit a business
         </a>

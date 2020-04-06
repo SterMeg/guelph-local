@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Shop Guelph Local`,
     description: `Local Guelph businesses offering delivery and pick up options during the COVID-19 crisis`,
+    formLink: `https://forms.gle/LGF1UWRhr5XpMyFB8`,
     author: `@meghasomething`,
+    contact: `hi@meghansterling.ca`,
   },
   plugins: [
     "gatsby-plugin-eslint",
