@@ -3,6 +3,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby";
 
 function IndexPage() {
@@ -18,6 +19,13 @@ function IndexPage() {
           name
           pickup
           url
+          image {
+            childImageSharp {
+              fluid(maxWidth: 350) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
@@ -45,16 +53,21 @@ function IndexPage() {
               key={store.id}
             >
               <div className="px-6 py-4">
-                <header className="text-center mb-3">
+                <header className="text-center mb-8">
                   <a href={store.url}>
-                    <h3 className="mb-3 text-gray-800">{store.name}</h3>
+                    <h3 className="mb-1 text-gray-800">{store.name}</h3>
                   </a>
                   <a
-                    className="text-teal-700 hover:text-teal-800 font-bold inline-block underline"
+                    className="text-teal-700 hover:text-teal-800 font-bold inline-block underline  mb-5"
                     href={store.url}
                   >
                     Visit Website
                   </a>
+                  {store.image && (
+                    <a href={store.url}>
+                      <Img sizes={{ ...store.image.childImageSharp.fluid, aspectRatio: 16 / 9 }} />
+                    </a>
+                  )}
                 </header>
                 <div className="mb-5 clearfix">
                   <h4 className="float-left leading-tight mr-3">
