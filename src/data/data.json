@@ -31,7 +31,9 @@
     "pickup": false,
     "delivery": true,
     "location": "Guelph",
-    "details": "The Bookstore will still be accessible via telephone, website and social media, and we will continue to offer free delivery on in-stock books and merchandise within Guelph."
+    "details": "The Bookstore will still be accessible via telephone, website and social media, and we will continue to offer free delivery on in-stock books and merchandise within Guelph.",
+    "image": "../images/data/bookshelf.jpg",
+  "alt": "The outside of The Bookshelf"
   },
   {
     "name": "Fresh Box Market",
@@ -44,5 +46,17 @@
     "details": "Weekly fresh produce box. Order early due to high demand. Pickup Thursdays from 12-7pm. Delivery to Fergus, Elora, Guelph, Elmira, Rockwood, Drayton, Alma, Moorefield, Arthur, Puslinch, Orangeville, Erin, Hillsburgh, Caledon, Mono, Shelburne, Grand Valley, Belwood.",
     "image": "../images/data/fresh-box-market.jpg",
     "alt": "A lineup of vegetables on a white background"
+  },
+  {
+    "name": "Speed River Bicycle",
+    "id": 5,
+    "url": "https://www.speedriverbicycle.com/",
+    "goods": "Bicycle sales and repairs",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Continuing sales via website, email, and phone. Continuing to offer bicycle service & repair through pick up service.",
+    "image": "../images/data/speed-river-bicycle.jpg",
+    "alt": "A group photo of the Speed River Bicycle staff"
   }
 ]
