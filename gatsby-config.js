@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `Shop Guelph Local`,
+        short_name: `Shop Guelph Local`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#457B9D`,
