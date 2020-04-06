@@ -22,7 +22,7 @@
   {
     "name": "Bookshelf",
     "id": 3,
-    "url": "https: //bookshelf.ca/",
+    "url": "https://www.bookshelf.ca/",
     "goods": "Books",
     "pickup": false,
     "delivery": true,
