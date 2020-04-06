@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
 
 import Layout from "../components/layout";
+import InfoGroup from "../components/info-group";
 import SEO from "../components/seo";
 import Img from "gatsby-image"
 
@@ -40,7 +41,7 @@ function IndexPage() {
     <Layout>
       <SEO title="Home" />
 
-      <section className="">
+      <section>
         <h2 className="mb-5 text-gray-800">{description}</h2>
         <a
           className="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded inline-block"
@@ -77,12 +78,7 @@ function IndexPage() {
                     </a>
                   )}
                 </header>
-                <div className="mb-5 clearfix">
-                  <h4 className="float-left leading-tight mr-3">
-                    Goods/Services:
-                  </h4>
-                  <p className="text-gray-800"> {store.goods}</p>
-                </div>
+                <InfoGroup title="Goods/Services" content={store.goods}/>
                 <div className="grid grid-cols-2 gap-5 mb-5">
                   <div>
                     <h4 className="mb-1">Delivery?</h4>
@@ -109,14 +105,8 @@ function IndexPage() {
                   <h4 className="float-left leading-tight mr-3">Other:</h4>
                   <p className="text-gray-800">{store.other}</p>
                 </div>}
-                <div className="mb-5 clearfix">
-                  <h4 className="float-left leading-tight mr-3">Location:</h4>
-                  <p className="text-gray-800">{store.location}</p>
-                </div>
-                <div className="clearfix">
-                  <h4 className="float-left leading-tight mr-3">More Info:</h4>
-                  <p className="text-gray-800">{store.details}</p>
-                </div>
+                <InfoGroup title="Location" content={store.location} />
+                <InfoGroup title="More Info" content={store.details}/>
               </div>
             </div>
           ))}
