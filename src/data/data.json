@@ -120,8 +120,44 @@
     "alt": "Wheels of cheese"
   },
   {
+    "name": "Bliss Dough",
+    "id": 10,
+    "url": "https://blissdough.com/",
+    "goods": "Bliss Dough was started in Guelph, ON and creates jars of ready-to-eat cookie dough in a variety of fantastic flavours! Our flour is heat-treated and we don’t use eggs so you can enjoy this guilty pleasure worry-free!",
+    "pickup": true,
+    "delivery": true,
+    "location": "3 Watson Road South Guelph ON",
+    "details": "Delivery is available on an ongoing basis, but curbside pick-ups are organised on specific days.",
+    "image": "../images/data/bliss-dough.jpg",
+    "alt": "Jars of cookie dough"
+  },
+  {
+    "name": "Feng's Dumplings",
+    "id": 12,
+    "url": "https://www.fengsdumplings.com/",
+    "goods": "Frozen dumplings and spring rolls, and sauces",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Offering online ordering through website form while Guelph Farmer's Market is closed. Free delivery for orders over $35. Otherwise, there will be a $5 delivery fee.",
+    "image": "../images/data/fengs-dumplings.jpg",
+    "alt": "Dumplings"
+  },
+  {
+    "name": "Harmony Meadows Alpaca",
+    "id": 13,
+    "url": "https://harmonymeadowsalpaca.ca/",
+    "goods": "Alpaca wool socks & goods",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Free local delivery in Guelph and Wellington County",
+    "image": "../images/data/harmony-meadows.jpg",
+    "alt": "A group of alpacas in a field"
+  },
+  {
     "name": "Planet Bean Coffee",
-    "id": 11,
+    "id": 14,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
