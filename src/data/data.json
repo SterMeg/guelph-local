@@ -84,8 +84,20 @@
     "alt": "A variety of candy"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Play With Clay",
     "id": 8,
+    "url": "http://www.playwithclayguelph.com/",
+    "goods": "Pottery painting and clay building",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Delivering home pottery kits and clay in Guelph. Also offering live-stream tutorials!",
+    "image": "../images/data/play-with-clay.jpg",
+    "alt": "Three plants in ceramic pots and the text 'take-home pottery kits delivery only'"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 9,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
