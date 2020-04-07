@@ -108,8 +108,20 @@
     "alt": "A long bar and bar tables inside Brothers Brewing Company"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Tomme Cheese Shop",
     "id": 10,
+    "url": "https://tomme.ca/",
+    "goods": "Fine cheeses and cheese accompaniments",
+    "pickup": true,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "We REMAIN OPEN as an essential service for curbside pick up and delivery. Shop online or call us at (519) 763-6552.",
+    "image": "../images/data/tomme-cheese.jpg",
+    "alt": "Wheels of cheese"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 11,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
