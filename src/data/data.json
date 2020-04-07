@@ -72,8 +72,20 @@
     "alt": "A shelf with baskets of produce"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Sweet",
     "id": 7,
+    "url": "https://www.facebook.com/sweetguelph",
+    "goods": "Your candy dealer in Guelph.",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Offering a variety of candy bags for delivery in partnership with The Dragon. See Facebook page for more info. You can get your candy, comics and games delivered together! Order candy via Facebook Messenger or email: Meowguelph@gmail.com. Minimum order $25.",
+    "image": "../images/data/sweet.jpg",
+    "alt": "A variety of candy"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 8,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
