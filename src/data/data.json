@@ -96,8 +96,20 @@
     "alt": "Three plants in ceramic pots and the text 'take-home pottery kits delivery only'"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Brothers Brewing Company",
     "id": 9,
+    "url": "https://www.brothersbrewingcompany.ca/",
+    "goods": "Craft beer",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Order online. Free Guelph delivery with coupon code. Select delivery days for other areas can be found on their social media.",
+    "image": "../images/data/brothers-brewing.jpg",
+    "alt": "A long bar and bar tables inside Brothers Brewing Company"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 10,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
