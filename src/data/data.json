@@ -156,8 +156,20 @@
     "alt": "A group of alpacas in a field"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "The Bloom Room Floral Company",
     "id": 14,
+    "url": "https://www.bloomroomco.com/",
+    "goods": "Guelph's Local Florist since 2015",
+    "pickup": false,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Taking online orders and orders by phone. Free delivery on local online orders. Some arrangements may have limited availablity due to shipping delays, Florist's Choice is recommended.",
+    "image": "../images/data/bloom-room.jpg",
+    "alt": "A flower arrangement"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 15,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
