@@ -168,8 +168,20 @@
     "alt": "A flower arrangement"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Guelph Music",
     "id": 15,
+    "url": "https://www.guelphmusic.com/",
+    "goods": "Music Store",
+    "pickup": true,
+    "delivery": true,
+    "location": "Guelph",
+    "details": "Delivery or Curb Side Pickup. Email, Phone Sales, DM Social Media. Also offering Skype music lessons.",
+    "image": "../images/data/guelph-music.jpg",
+    "alt": "Guelph Music storefront"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 16,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
