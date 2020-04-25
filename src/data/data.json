@@ -180,8 +180,84 @@
     "alt": "Guelph Music storefront"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Make 1", 
     "id": 16,
+    "url": "https://www.make1.ca/",
+    "goods": "Fabric, patterns, yarn, sewing notions and more! Locally-owned small shop offering quality fabric for masks or all your quarantine sewing projects.",
+    "pickup": true,
+    "delivery": true,
+    "location": "88 Waterloo Ave., Guelph",
+    "details": "Free contactless delivery in Guelph on all orders.",
+    "image": "../images/data/make1.jpg",
+    "alt": "A shop interior featuring bolts of fabric and yarn."
+  },
+  {
+    "name": "SMOKIN’ BONES",
+    "id": 17,
+    "url": "http://www.smokinbonesdogtreats.com/",
+    "goods": "Gourmet dog bones and treats.",
+    "pickup": true,
+    "delivery": true,
+    "location": "6617 Concession 4, Guelph"
+  },
+  {
+    "name": "Simply Wonderful Toys",
+    "id": 18,
+    "url": "https://www.simplywonderfultoys.ca/",
+    "goods": "Guelph's favourite neighborhood toy store! Something for everyone.",
+    "pickup": true,
+    "delivery": true,
+    "location": "10 Paisley Street, Guelph",
+    "details": "Open 10-4 Monday through Saturday",
+    "image": "../images/data/simply-wonderful.jpeg",
+    "alt": "Simply Wonderful Toys"
+  },
+  {
+    "name": "Sewfunky",
+    "id": 19,
+    "url": "https://www.sewfunky.ca/",
+    "goods": "Baby carriers, handmade clothing & cloth face masks handmade in Guelph",
+    "pickup": true,
+    "delivery": false,
+    "location": "Waterloo Ave",
+    "details": "We now offer handmade cloth masks with local pick up near downtown."
+  },
+  {
+    "name": "Carbon Café",
+    "id": 20,
+    "url": "https://carboncafe.ca/",
+    "goods": "Panini-Press Sandwiches, Salads, Soups, Sweets, Smoothies, Coffee",
+    "pickup": true,
+    "delivery": true,
+    "location": "175 Chancellors Way, Guelph, ON, N1G 0E9",
+    "details": "Pickup between 8am to 4pm Monday to Friday. Deliveries between 4pm to 6pm Monday to Friday",
+    "image": "../images/data/carbon-cafe.png",
+    "alt": "A grid of images containing a quiche, matcha latte, and pastries."
+  },
+  {
+    "name": "Smitten Apparel",
+    "id": 21,
+    "url": "https://www.smittenapparel.ca/",
+    "goods": "Smitten Apparel is a consignment boutique located in the Grange and Victoria Plaza.  A fashion forward, sustainable option for the savvy shopper.",
+    "pickup": false,
+    "delivery": true,
+    "location": "259 Grange Rd. Unit# 11 Guelph, Ontario N1E-6R5",
+    "details": "Payments made by etransfer.  Providing safe contactless delivery.",
+    "image": "../images/data/smitten-apparel.jpg",
+    "alt": "Three rompers and robes on mannequins."
+  },
+  {
+    "name": "Alpine Print Company",
+    "id": 22,
+    "url": "https://supportlocal.alpineprintcompany.com/",
+    "goods": "Printed tees to support local Guelph businesses",
+    "other": "Tees are a pre-order & will be printed when state of emergency is lifted from Guelph or 3 months time.",
+    "location": "Guelph",
+    "details": "Buy a tee, choose a company to support and $10 will be donated your chosen business."
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 23,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,

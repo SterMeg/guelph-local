@@ -52,7 +52,7 @@ function IndexPage() {
         <div className="card-grid mt-8">
           {data.allDataJson.nodes.map((store) => (
             <div
-              className="max-w-sm rounded shadow-lg  bg-white"
+              className="max-w-sm rounded shadow-lg  bg-white w-full"
               key={store.id}
             >
               <div className="px-6 py-4">
@@ -106,7 +106,9 @@ function IndexPage() {
                   <p className="text-gray-800">{store.other}</p>
                 </div>}
                 <InfoGroup title="Location" content={store.location} />
-                <InfoGroup title="More Info" content={store.details}/>
+                {store.details && 
+                  <InfoGroup title="More Info" content={store.details}/>
+                }
               </div>
             </div>
           ))}
