@@ -258,8 +258,28 @@
     "details": "Buy a tee, choose a company to support and $10 will be donated your chosen business."
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Wild Birds Unlimited",
     "id": 23,
+    "url": "https://guelph.wbu.com",
+    "goods": "Specialty wild bird feeding store. Everything you need to enjoy birds outside!",
+    "pickup": true,
+    "delivery": true,
+    "location": "987 Gordon St Unit 2",
+    "details": "Free Guelph delivery on orders over $50 before tax. Curbside pickup by appointment. See details on website.",
+    "image": "../images/data/wild-birds.jpg",
+    "alt": "Two cardinals at a bird feeder."
+  },
+  {
+    "name": "Complete Tax & Business Services",
+    "url": "http://www.completetax.biz/index.php",
+    "id": 24,
+    "goods": "Personal & Business Income tax preparation",
+    "pickup": true,
+    "location": "226 Speedvale Ave W Guelph"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 25,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
