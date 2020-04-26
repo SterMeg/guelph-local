@@ -34,7 +34,7 @@ function IndexPage() {
   `);
 
   return (
-    <Layout>
+    <Layout activeTag="all">
       <SEO title="Home" />
         <section className="card-grid mt-8">
           {data.allDataJson.nodes.map((store) => (

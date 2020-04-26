@@ -29,7 +29,7 @@ function Header() {
           </Link>
         </div>
       </div>
-      <div className="flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8">
+      <div className="flex-1 w-full max-w-6xl px-4 pt-8 mx-auto md:px-8">
         <h2 className="mb-5 text-gray-800">{description}</h2>
         <a
           className="bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded inline-block"
@@ -37,12 +37,24 @@ function Header() {
         >
           Submit a business
         </a>
-        <nav>
-          <ul>
-            <li><Link to="/">all</Link></li>
-            {links.map(link => (
+        <nav className="mt-8">
+          <ul className="flex">
+            <li>
+              <Link
+                className="p-4 uppercase hover:text-teal-900"
+                activeStyle={{ borderBottom: "2px solid #222" }}
+                to="/"
+              >
+                all
+              </Link>
+            </li>
+            {links.map((link) => (
               <li key={link.fieldValue}>
-                <Link to={`/${_.kebabCase(link.fieldValue)}`}>
+                <Link
+                  className="p-4 uppercase hover:text-teal-900"
+                  activeStyle={{ borderBottom: "2px solid #222" }}
+                  to={`/${_.kebabCase(link.fieldValue)}`}
+                >
                   {link.fieldValue}
                 </Link>
               </li>

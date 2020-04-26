@@ -5,11 +5,10 @@ import { graphql } from "gatsby"
 import StoreCard from "../components/store-card"
 import Layout from "../components/layout"
 
-const Tags = ({ pageContext, data }) => {
-  const { tag } = pageContext
+const Tags = ({ data }) => {
   const { nodes } = data.allDataJson
   return (
-    <Layout activeTag={tag}>
+    <Layout>
       <section className="card-grid mt-8">
         {nodes.map((store) => (
           <StoreCard store={store} key={store.id}/>
@@ -20,9 +19,6 @@ const Tags = ({ pageContext, data }) => {
 }
 
 Tags.propTypes = {
-  pageContext: PropTypes.shape({
-    tag: PropTypes.string.isRequired,
-  }),
   data: PropTypes.shape({
     allDataJson: PropTypes.shape({
       nodes: PropTypes.array, 
