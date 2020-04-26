@@ -302,8 +302,21 @@
     "type": "service"
   },
   {
-    "name": "Planet Bean Coffee",
+    "name": "Matthew's Barbershop",
     "id": 25,
+    "url": "https://www.matthewsbarbershop.ca/online-store",
+    "goods": "Matthew's Barbershop Beer, Bellwoods Beer, The Common Coffee beans, Hats, Flour, Candy and Chips",
+    "pickup": false,
+    "delivery": true,
+    "location": "24 Macdonell",
+    "details": "$5 Porch Delivery, no contact, If ordering beer you must be 19 and home to collect.",
+    "image": "../images/data/matthews-barbershop.jpg",
+    "alt": "A grid with an image of a beer and a hat",
+    "type": "food and drink"
+  },
+  {
+    "name": "Planet Bean Coffee",
+    "id": 26,
     "url": "https://www.planetbeancoffee.com/",
     "goods": "Locally roasted fair trade organic coffee",
     "pickup": false,
