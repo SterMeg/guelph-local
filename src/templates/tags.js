@@ -3,17 +3,19 @@ import PropTypes from "prop-types"
 
 import { graphql } from "gatsby"
 import StoreCard from "../components/store-card"
+import Layout from "../components/layout"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { nodes } = data.allDataJson
   return (
-    <div>
-      <h1>{tag}</h1>
-      {nodes.map((store) => (
-        <StoreCard store={store} key={store.id}/>
-      ))}
-    </div>
+    <Layout activeTag={tag}>
+      <section className="card-grid mt-8">
+        {nodes.map((store) => (
+          <StoreCard store={store} key={store.id}/>
+        ))}
+      </section>
+    </Layout>
   )
 }
 

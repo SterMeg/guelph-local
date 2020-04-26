@@ -49,7 +49,7 @@
     "details": "Weekly fresh produce box. Order early due to high demand. Pickup Thursdays from 12-7pm. Delivery to Fergus, Elora, Guelph, Elmira, Rockwood, Drayton, Alma, Moorefield, Arthur, Puslinch, Orangeville, Erin, Hillsburgh, Caledon, Mono, Shelburne, Grand Valley, Belwood.",
     "image": "../images/data/fresh-box-market.jpg",
     "alt": "A lineup of vegetables on a white background",
-    "type": "food & drink"
+    "type": "food and drink"
   },
   {
     "name": "Speed River Bicycle",
@@ -75,7 +75,7 @@
     "details": "A surprise box made up of products from local businesses directly affected by the COVID-19 crisis. Delivery within Guelph on specified days.",
     "image": "../images/data/guelph-box.jpg",
     "alt": "A shelf with baskets of produce",
-    "type": "food & drink"
+    "type": "food and drink"
   },
   {
     "name": "Sweet",
@@ -88,7 +88,7 @@
     "details": "Offering a variety of candy bags for delivery in partnership with The Dragon. See Facebook page for more info. You can get your candy, comics and games delivered together! Order candy via Facebook Messenger or email: Meowguelph@gmail.com. Minimum order $25.",
     "image": "../images/data/sweet.jpg",
     "alt": "A variety of candy",
-    "type": "food & drink"
+    "type": "food and drink"
   },
   {
     "name": "Play With Clay",
@@ -114,7 +114,7 @@
     "details": "Order online. Free Guelph delivery with coupon code. Select delivery days for other areas can be found on their social media.",
     "image": "../images/data/brothers-brewing.jpg",
     "alt": "A long bar and bar tables inside Brothers Brewing Company",
-    "type":"food & drink"
+    "type":"food and drink"
   },
   {
     "name": "Tomme Cheese Shop",
@@ -127,7 +127,7 @@
     "details": "We REMAIN OPEN as an essential service for curbside pick up and delivery. Shop online or call us at (519) 763-6552.",
     "image": "../images/data/tomme-cheese.jpg",
     "alt": "Wheels of cheese",
-    "type":"food & drink"
+    "type":"food and drink"
   },
   {
     "name": "Bliss Dough",
@@ -140,7 +140,7 @@
     "details": "Delivery is available on an ongoing basis, but curbside pick-ups are organised on specific days.",
     "image": "../images/data/bliss-dough.jpg",
     "alt": "Jars of cookie dough",
-    "type":"food & drink"
+    "type":"food and drink"
   },
   {
     "name": "Feng's Dumplings",
@@ -153,13 +153,13 @@
     "details": "Offering online ordering through website form while Guelph Farmer's Market is closed. Free delivery for orders over $35. Otherwise, there will be a $5 delivery fee.",
     "image": "../images/data/fengs-dumplings.jpg",
     "alt": "Dumplings",
-    "type":"food & drink"
+    "type":"food and drink"
   },
   {
     "name": "Harmony Meadows Alpaca",
     "id": 13,
     "url": "https://harmonymeadowsalpaca.ca/",
-    "goods": "Alpaca wool socks & goods",
+    "goods": "Alpaca wool socks and goods",
     "pickup": false,
     "delivery": true,
     "location": "Guelph",
@@ -254,7 +254,7 @@
     "details": "Pickup between 8am to 4pm Monday to Friday. Deliveries between 4pm to 6pm Monday to Friday",
     "image": "../images/data/carbon-cafe.png",
     "alt": "A grid of images containing a quiche, matcha latte, and pastries.",
-    "type": "food & drink"
+    "type": "food and drink"
   },
   {
     "name": "Smitten Apparel",
@@ -313,6 +313,6 @@
     "details": "Coffee beans available at Valeriote's Market, The Stone Store Natural Foods, Market Fresh Guelph, Goodness Me! Natural Food Market, Longo's, Thatcher Farms Butcher Shop, Bakery and Farm Market, Grocery Gateway, Mosborough Country Market",
     "image": "../images/data/planet-bean.jpg",
     "alt": "A shelf with packaged Planet Bean coffee",
-    "type":"food & drink"
+    "type":"food and drink"
   }
 ]
