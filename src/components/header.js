@@ -38,10 +38,11 @@ function Header() {
           Submit a business
         </a>
         <nav className="mt-8">
-          <ul className="flex">
+          <ul className="flex flex-wrap">
             <li>
               <Link
-                className="p-4 uppercase hover:text-teal-900"
+                className="p-4 uppercase hover:text-teal-900
+                inline-block"
                 activeStyle={{ borderBottom: "2px solid #222" }}
                 to="/"
               >
@@ -51,7 +52,7 @@ function Header() {
             {links.map((link) => (
               <li key={link.fieldValue}>
                 <Link
-                  className="p-4 uppercase hover:text-teal-900"
+                  className="p-4 uppercase hover:text-teal-900 inline-block"
                   activeStyle={{ borderBottom: "2px solid #222" }}
                   to={`/${_.kebabCase(link.fieldValue)}`}
                 >
