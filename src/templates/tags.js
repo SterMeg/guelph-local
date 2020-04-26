@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import { graphql } from "gatsby"
+import StoreCard from "../components/store-card"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -10,7 +11,7 @@ const Tags = ({ pageContext, data }) => {
     <div>
       <h1>{tag}</h1>
       {nodes.map((store) => (
-        <h2 key={store.id}>{store.name}</h2>
+        <StoreCard store={store} key={store.id}/>
       ))}
     </div>
   )
@@ -22,20 +23,7 @@ Tags.propTypes = {
   }),
   data: PropTypes.shape({
     allDataJson: PropTypes.shape({
-      nodes: PropTypes.arrayOf(
-        PropTypes.shape({
-          id: PropTypes.string.isRequired,
-          delivery: PropTypes.bool,
-          details: PropTypes.string,
-          goods: PropTypes.string,
-          location: PropTypes.string,
-          name: PropTypes.string.isRequired,
-          pickups: PropTypes.bool,
-          other: PropTypes.string,
-          url: PropTypes.string,
-          alt: PropTypes.string
-        }),
-      ), 
+      nodes: PropTypes.array, 
     }),
   }),
 }
