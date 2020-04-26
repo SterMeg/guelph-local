@@ -9,7 +9,8 @@
     "location": "Guelph",
     "details": "Order online or email for more information. Local home and postal delivery.",
     "image": "../images/data/dragon.png",
-    "alt": "A banner with the text order online for home and postal delivery"
+    "alt": "A banner with the text order online for home and postal delivery",
+    "type": "shopping"
   },
   {
   "name": "All Strung Out Fine Yarns and Fibre Arts",
@@ -21,7 +22,8 @@
   "location": "Guelph",
   "details": "Order online or call 226-820-3766. Shipping, curbside pickup, and delivery within Guelph area.",
   "image": "../images/data/all-strung-out.jpg",
-  "alt": "All Strung Out Fine Yarns"
+  "alt": "All Strung Out Fine Yarns",
+  "type": "crafting"
   },
   {
     "name": "The Bookshelf",
@@ -33,7 +35,8 @@
     "location": "Guelph",
     "details": "The Bookstore will still be accessible via telephone, website and social media, and we will continue to offer free delivery on in-stock books and merchandise within Guelph.",
     "image": "../images/data/bookshelf.jpg",
-  "alt": "The outside of The Bookshelf"
+    "alt": "The outside of The Bookshelf",
+    "type": "shopping"
   },
   {
     "name": "Fresh Box Market",
@@ -45,7 +48,8 @@
     "location": "Fergus",
     "details": "Weekly fresh produce box. Order early due to high demand. Pickup Thursdays from 12-7pm. Delivery to Fergus, Elora, Guelph, Elmira, Rockwood, Drayton, Alma, Moorefield, Arthur, Puslinch, Orangeville, Erin, Hillsburgh, Caledon, Mono, Shelburne, Grand Valley, Belwood.",
     "image": "../images/data/fresh-box-market.jpg",
-    "alt": "A lineup of vegetables on a white background"
+    "alt": "A lineup of vegetables on a white background",
+    "type": "food & drink"
   },
   {
     "name": "Speed River Bicycle",
@@ -57,7 +61,8 @@
     "location": "Guelph",
     "details": "Continuing sales via website, email, and phone. Continuing to offer bicycle service & repair through pick up service.",
     "image": "../images/data/speed-river-bicycle.jpg",
-    "alt": "A group photo of the Speed River Bicycle staff"
+    "alt": "A group photo of the Speed River Bicycle staff",
+    "type": "shopping"
   },
   {
     "name": "Guelph Box",
@@ -69,7 +74,8 @@
     "location": "Guelph",
     "details": "A surprise box made up of products from local businesses directly affected by the COVID-19 crisis. Delivery within Guelph on specified days.",
     "image": "../images/data/guelph-box.jpg",
-    "alt": "A shelf with baskets of produce"
+    "alt": "A shelf with baskets of produce",
+    "type": "food & drink"
   },
   {
     "name": "Sweet",
@@ -81,7 +87,8 @@
     "location": "Guelph",
     "details": "Offering a variety of candy bags for delivery in partnership with The Dragon. See Facebook page for more info. You can get your candy, comics and games delivered together! Order candy via Facebook Messenger or email: Meowguelph@gmail.com. Minimum order $25.",
     "image": "../images/data/sweet.jpg",
-    "alt": "A variety of candy"
+    "alt": "A variety of candy",
+    "type": "food & drink"
   },
   {
     "name": "Play With Clay",
@@ -93,7 +100,8 @@
     "location": "Guelph",
     "details": "Delivering home pottery kits and clay in Guelph. Also offering live-stream tutorials!",
     "image": "../images/data/play-with-clay.jpg",
-    "alt": "Three plants in ceramic pots and the text 'take-home pottery kits delivery only'"
+    "alt": "Three plants in ceramic pots and the text 'take-home pottery kits delivery only'",
+    "type": "crafting"
   },
   {
     "name": "Brothers Brewing Company",
@@ -105,7 +113,8 @@
     "location": "Guelph",
     "details": "Order online. Free Guelph delivery with coupon code. Select delivery days for other areas can be found on their social media.",
     "image": "../images/data/brothers-brewing.jpg",
-    "alt": "A long bar and bar tables inside Brothers Brewing Company"
+    "alt": "A long bar and bar tables inside Brothers Brewing Company",
+    "type":"food & drink"
   },
   {
     "name": "Tomme Cheese Shop",
@@ -117,7 +126,8 @@
     "location": "Guelph",
     "details": "We REMAIN OPEN as an essential service for curbside pick up and delivery. Shop online or call us at (519) 763-6552.",
     "image": "../images/data/tomme-cheese.jpg",
-    "alt": "Wheels of cheese"
+    "alt": "Wheels of cheese",
+    "type":"food & drink"
   },
   {
     "name": "Bliss Dough",
@@ -129,7 +139,8 @@
     "location": "3 Watson Road South Guelph ON",
     "details": "Delivery is available on an ongoing basis, but curbside pick-ups are organised on specific days.",
     "image": "../images/data/bliss-dough.jpg",
-    "alt": "Jars of cookie dough"
+    "alt": "Jars of cookie dough",
+    "type":"food & drink"
   },
   {
     "name": "Feng's Dumplings",
@@ -141,7 +152,8 @@
     "location": "Guelph",
     "details": "Offering online ordering through website form while Guelph Farmer's Market is closed. Free delivery for orders over $35. Otherwise, there will be a $5 delivery fee.",
     "image": "../images/data/fengs-dumplings.jpg",
-    "alt": "Dumplings"
+    "alt": "Dumplings",
+    "type":"food & drink"
   },
   {
     "name": "Harmony Meadows Alpaca",
@@ -153,7 +165,8 @@
     "location": "Guelph",
     "details": "Free local delivery in Guelph and Wellington County",
     "image": "../images/data/harmony-meadows.jpg",
-    "alt": "A group of alpacas in a field"
+    "alt": "A group of alpacas in a field",
+    "type": "shopping"
   },
   {
     "name": "The Bloom Room Floral Company",
@@ -165,7 +178,8 @@
     "location": "Guelph",
     "details": "Taking online orders and orders by phone. Free delivery on local online orders. Some arrangements may have limited availablity due to shipping delays, Florist's Choice is recommended.",
     "image": "../images/data/bloom-room.jpg",
-    "alt": "A flower arrangement"
+    "alt": "A flower arrangement",
+    "type": "shopping"
   },
   {
     "name": "Guelph Music",
@@ -177,7 +191,8 @@
     "location": "Guelph",
     "details": "Delivery or Curb Side Pickup. Email, Phone Sales, DM Social Media. Also offering Skype music lessons.",
     "image": "../images/data/guelph-music.jpg",
-    "alt": "Guelph Music storefront"
+    "alt": "Guelph Music storefront",
+    "type": "shopping"
   },
   {
     "name": "Make 1", 
@@ -189,7 +204,8 @@
     "location": "88 Waterloo Ave., Guelph",
     "details": "Free contactless delivery in Guelph on all orders.",
     "image": "../images/data/make1.jpg",
-    "alt": "A shop interior featuring bolts of fabric and yarn."
+    "alt": "A shop interior featuring bolts of fabric and yarn.",
+    "type": "crafting"
   },
   {
     "name": "SMOKIN’ BONES",
@@ -198,7 +214,8 @@
     "goods": "Gourmet dog bones and treats.",
     "pickup": true,
     "delivery": true,
-    "location": "6617 Concession 4, Guelph"
+    "location": "6617 Concession 4, Guelph",
+    "type": "shopping"
   },
   {
     "name": "Simply Wonderful Toys",
@@ -210,7 +227,8 @@
     "location": "10 Paisley Street, Guelph",
     "details": "Open 10-4 Monday through Saturday",
     "image": "../images/data/simply-wonderful.jpeg",
-    "alt": "Simply Wonderful Toys"
+    "alt": "Simply Wonderful Toys",
+    "type": "shopping"
   },
   {
     "name": "Sewfunky",
@@ -222,7 +240,8 @@
     "location": "Waterloo Ave",
     "details": "We now offer handmade cloth masks with local pick up near downtown.",
     "image": "../images/data/sewfunky.jpg",
-    "alt": "A fox print face mask"
+    "alt": "A fox print face mask",
+    "type": "shopping"
   },
   {
     "name": "Carbon Café",
@@ -234,7 +253,8 @@
     "location": "175 Chancellors Way, Guelph, ON, N1G 0E9",
     "details": "Pickup between 8am to 4pm Monday to Friday. Deliveries between 4pm to 6pm Monday to Friday",
     "image": "../images/data/carbon-cafe.png",
-    "alt": "A grid of images containing a quiche, matcha latte, and pastries."
+    "alt": "A grid of images containing a quiche, matcha latte, and pastries.",
+    "type": "food & drink"
   },
   {
     "name": "Smitten Apparel",
@@ -246,7 +266,8 @@
     "location": "259 Grange Rd. Unit# 11 Guelph, Ontario N1E-6R5",
     "details": "Payments made by etransfer.  Providing safe contactless delivery.",
     "image": "../images/data/smitten-apparel.jpg",
-    "alt": "Three rompers and robes on mannequins."
+    "alt": "Three rompers and robes on mannequins.",
+    "type": "shopping"
   },
   {
     "name": "Alpine Print Company",
@@ -255,7 +276,8 @@
     "goods": "Printed tees to support local Guelph businesses",
     "other": "Tees are a pre-order & will be printed when state of emergency is lifted from Guelph or 3 months time.",
     "location": "Guelph",
-    "details": "Buy a tee, choose a company to support and $10 will be donated your chosen business."
+    "details": "Buy a tee, choose a company to support and $10 will be donated your chosen business.",
+    "type": "shopping"
   },
   {
     "name": "Wild Birds Unlimited",
@@ -267,7 +289,8 @@
     "location": "987 Gordon St Unit 2",
     "details": "Free Guelph delivery on orders over $50 before tax. Curbside pickup by appointment. See details on website.",
     "image": "../images/data/wild-birds.jpg",
-    "alt": "Two cardinals at a bird feeder."
+    "alt": "Two cardinals at a bird feeder.",
+    "type": "shopping"
   },
   {
     "name": "Complete Tax & Business Services",
@@ -275,7 +298,8 @@
     "id": 24,
     "goods": "Personal & Business Income tax preparation",
     "pickup": true,
-    "location": "226 Speedvale Ave W Guelph"
+    "location": "226 Speedvale Ave W Guelph",
+    "type": "service"
   },
   {
     "name": "Planet Bean Coffee",
@@ -288,6 +312,7 @@
     "location": "Guelph",
     "details": "Coffee beans available at Valeriote's Market, The Stone Store Natural Foods, Market Fresh Guelph, Goodness Me! Natural Food Market, Longo's, Thatcher Farms Butcher Shop, Bakery and Farm Market, Grocery Gateway, Mosborough Country Market",
     "image": "../images/data/planet-bean.jpg",
-    "alt": "A shelf with packaged Planet Bean coffee"
+    "alt": "A shelf with packaged Planet Bean coffee",
+    "type":"food & drink"
   }
 ]

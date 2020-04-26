@@ -25,6 +25,7 @@ function IndexPage() {
           other
           url
           alt
+          type
           image {
             childImageSharp {
               fluid(maxWidth: 350) {
@@ -36,6 +37,11 @@ function IndexPage() {
       }
     }
   `);
+
+  const groups = data.allDataJson.nodes.reduce((types, item) => ({
+    ...types,
+    [item.type]: [...(types[item.type] || []), item]
+  }), {});
 
   return (
     <Layout>
@@ -49,6 +55,18 @@ function IndexPage() {
         >
           Submit a business
         </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#all">all</a>
+            </li>
+            {Object.keys(groups).map((key) => (
+              <li key={key}>
+                <button>{key}</button>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <div className="card-grid mt-8">
           {data.allDataJson.nodes.map((store) => (
             <div
@@ -78,7 +96,7 @@ function IndexPage() {
                     </a>
                   )}
                 </header>
-                <InfoGroup title="Goods/Services" content={store.goods}/>
+                <InfoGroup title="Goods/Services" content={store.goods} />
                 <div className="grid grid-cols-2 gap-5 mb-5">
                   <div>
                     <h4 className="mb-1">Delivery?</h4>
@@ -101,14 +119,16 @@ function IndexPage() {
                     </p>
                   </div>
                 </div>
-                {store.other && <div className="mb-5 clearfix">
-                  <h4 className="float-left leading-tight mr-3">Other:</h4>
-                  <p className="text-gray-800">{store.other}</p>
-                </div>}
+                {store.other && (
+                  <div className="mb-5 clearfix">
+                    <h4 className="float-left leading-tight mr-3">Other:</h4>
+                    <p className="text-gray-800">{store.other}</p>
+                  </div>
+                )}
                 <InfoGroup title="Location" content={store.location} />
-                {store.details && 
-                  <InfoGroup title="More Info" content={store.details}/>
-                }
+                {store.details && (
+                  <InfoGroup title="More Info" content={store.details} />
+                )}
               </div>
             </div>
           ))}
